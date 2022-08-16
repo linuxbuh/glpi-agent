@@ -8,6 +8,10 @@ perl glpi-agent-1.5-gitf38f1453-linux-installer.pl
 
 rm glpi-agent-1.5-gitf38f1453-linux-installer.pl
 
+apt install git
+
+yum install git
+
 git clone https://github.com/linuxbuh/glpi-agent.git
 
 cp -f /root/glpi-agent/linux/etc/glpi-agent/agent.cfg /etc/glpi-agent/agent.cfg
