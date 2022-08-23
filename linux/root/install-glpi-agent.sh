@@ -2,11 +2,11 @@
 
 cd /root
 
-wget https://nightly.glpi-project.org/glpi-agent/glpi-agent-1.5-gitf38f1453-linux-installer.pl
+wget -O /root/glpi-agent-1.5-git5c04df6a-linux-installer.pl https://github.com/linuxbuh/glpi-agent/raw/main/linux/glpi-agent-1.5-git5c04df6a-linux-installer.pl
 
-perl glpi-agent-1.5-gitf38f1453-linux-installer.pl
+perl /root/glpi-agent-1.5-git5c04df6a-linux-installer.pl --type=all
 
-rm glpi-agent-1.5-gitf38f1453-linux-installer.pl
+rm /root/glpi-agent-1.5-git5c04df6a-linux-installer.pl
 
 apt install git
 
