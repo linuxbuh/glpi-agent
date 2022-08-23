@@ -2,7 +2,7 @@
 
 cd /root
 
-wget --no-check-certificate https://nightly.glpi-project.org/glpi-agent/glpi-agent-1.5-gitf38f1453-linux-installer.pl
+wget https://nightly.glpi-project.org/glpi-agent/glpi-agent-1.5-gitf38f1453-linux-installer.pl
 
 perl glpi-agent-1.5-gitf38f1453-linux-installer.pl
 
