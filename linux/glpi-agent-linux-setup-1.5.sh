@@ -12,12 +12,10 @@ apt install git
 
 yum install git
 
-git clone https://github.com/linuxbuh/glpi-agent.git
-
-#cp -f /root/glpi-agent/linux/etc/glpi-agent/agent.cfg /etc/glpi-agent/agent.cfg
-
-#rm -f /etc/glpi-agent/conf.d/00-install.cfg
-
 service glpi-agent restart
 
+systemctl restart glpi-agent
+
 service glpi-agent status
+
+systemctl status glpi-agent
