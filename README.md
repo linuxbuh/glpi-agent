@@ -1,1 +1,1 @@
-# glpi-agent
+# Скрипты установки glpi-agent
